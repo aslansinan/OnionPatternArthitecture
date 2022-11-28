@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnionPatternDomain.Common
+namespace OnionPattern.Application.Wrappers
 {
-    public class BaseEntity
+    public class BaseResponse
     {
         public Guid id { get; set; }
-        public DateTime CreateDate { get; set; }
+        public bool  Success { get; set; }
+        public string message { get; set; }
+
     }
-}   
+}

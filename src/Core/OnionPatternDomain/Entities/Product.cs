@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OnionPatternDomain.Entities
 {
-    internal class Product :BaseEntity
+    public class Product :BaseEntity
     {
         public String Name { get; set; }
         public decimal Value { get; set; }

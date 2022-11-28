@@ -41,7 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\ProductViewDto.cs" />
+    <Compile Include="Exceptions\ValidationExpection.cs" />
+    <Compile Include="Interface\Repository\IGenericRepositoryAsync.cs" />
+    <Compile Include="Interface\Repository\IProductRepository.cs" />
+    <Compile Include="Parameters\RequestParameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wrappers\BaseResponse.cs" />
+    <Compile Include="Wrappers\PagedResponse.cs" />
+    <Compile Include="Wrappers\ServiceResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnionPatternDomain\OnionPattern.Domain.csproj">
+      <Project>{504a196b-f1f3-4ea0-8df5-9a277c742c69}</Project>
+      <Name>OnionPattern.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
