@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56AA96D5-D06F-4A47-86AE-9F242A968EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A4387837-D79C-4398-9324-8E11D8902C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Domain", "src\Core\OnionPatternDomain\OnionPattern.Domain.csproj", "{504A196B-F1F3-4EA0-8DF5-9A277C742C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Application", "src\Core\OnionPattern.Application\OnionPattern.Application.csproj", "{9435103F-230B-4424-8734-EA4D63AF7E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9435103F-230B-4424-8734-EA4D63AF7E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9435103F-230B-4424-8734-EA4D63AF7E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9435103F-230B-4424-8734-EA4D63AF7E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9435103F-230B-4424-8734-EA4D63AF7E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4387837-D79C-4398-9324-8E11D8902C98} = {56AA96D5-D06F-4A47-86AE-9F242A968EF5}
+		{504A196B-F1F3-4EA0-8DF5-9A277C742C69} = {A4387837-D79C-4398-9324-8E11D8902C98}
+		{9435103F-230B-4424-8734-EA4D63AF7E13} = {A4387837-D79C-4398-9324-8E11D8902C98}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1BEB71E-1327-46FD-838B-C1C12A4342D4}
+	EndGlobalSection
+EndGlobal
