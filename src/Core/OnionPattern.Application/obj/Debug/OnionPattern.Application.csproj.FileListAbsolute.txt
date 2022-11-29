@@ -1,0 +1,9 @@
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\bin\Debug\OnionPattern.Application.dll
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\bin\Debug\OnionPattern.Application.pdb
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\bin\Debug\OnionPatternDomain.dll
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\bin\Debug\OnionPatternDomain.pdb
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\obj\Debug\OnionPattern.Application.csproj.AssemblyReference.cache
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\obj\Debug\OnionPattern.Application.csproj.CoreCompileInputs.cache
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\obj\Debug\OnionPattern.Application.csproj.CopyComplete
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\obj\Debug\OnionPattern.Application.dll
+C:\projeler\repos\OnionpatternApp\src\Core\OnionPattern.Application\obj\Debug\OnionPattern.Application.pdb

@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/OnionpatternApp
+/src/infrastructure/OnionPattern.Persistence/bin/Debug
+/src/infrastructure/OnionPattern.Persistence/obj/Debug
+/src/Core/OnionPattern.Application/bin/Debug
+/src/Core/OnionPatternDomain/bin/Debug
+/src/infrastructure/OnionPattern.Persistences/obj/Debug/net6.0
+/src/infrastructure/OnionPattern.Persistences/obj
+/src/infrastructure/OnionPattern.Persistence/Properties/AssemblyInfo.cs
+/src/infrastructure/OnionPattern.Persistence/OnionPattern.Persistence.csproj
+/src/Core/OnionPatternDomain/obj/Debug
+/src/infrastructure/OnionPattern.Persistences/bin/Debug/net6.0
+/src/infrastructure/OnionPattern.Persistences/OnionPattern.Persistences.csproj
