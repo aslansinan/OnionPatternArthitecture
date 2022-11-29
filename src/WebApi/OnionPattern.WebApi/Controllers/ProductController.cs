@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using OnionPattern.Application.Dto;
 using OnionPattern.Application.Features.Commands.CreateProductCommand;
 using OnionPattern.Application.Features.Queries.GetAllProducts;
+using OnionPattern.Application.Features.Queries.GetProductById;
 using OnionPattern.Application.Interface.Repository;
 
 namespace OnionPattern.WebApi.Controllers
@@ -25,10 +26,17 @@ namespace OnionPattern.WebApi.Controllers
             return Ok(await mediator.Send(query));
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var query = new GetProductByIdQuery() { Id=id};
+            return Ok(await mediator.Send(query));
+        }
         [HttpPost]
         public async Task<IActionResult> Post(CreateProductCommand command)
         {
             return Ok(await mediator.Send(command));
         }
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using OnionPattern.Application.Features.Commands.CreateProductCommand;
+using OnionPattern.Application.Features.Queries.GetProductById;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,8 @@ namespace OnionPattern.Application.Mapping
                 .ReverseMap();
 
             CreateMap<OnionPatternDomain.Entities.Product, CreateProductCommand>()
+                .ReverseMap();
+            CreateMap<OnionPatternDomain.Entities.Product, GetProductByIdViewModel>()
                 .ReverseMap();
         }
     }
