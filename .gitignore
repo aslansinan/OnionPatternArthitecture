@@ -22,3 +22,7 @@
 /src/WebApi/OnionPattern.WebApi/appsettings.json
 /src/WebApi/OnionPattern.WebApi/OnionPattern.WebApi.csproj
 /src/WebApi/OnionPattern.WebApi/OnionPattern.WebApi.csproj.user
+/src/Core/ClassLibrary1/obj/Debug/net6.0
+/src/Core/ClassLibrary1/obj
+/src/Core/OnionPattern.Application/obj/Debug
+/src/Core/OnionPattern.Application/OnionPattern.Applications.csproj

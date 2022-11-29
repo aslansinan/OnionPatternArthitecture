@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A4387837-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Domain", "src\Core\OnionPatternDomain\OnionPattern.Domain.csproj", "{504A196B-F1F3-4EA0-8DF5-9A277C742C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Application", "src\Core\OnionPattern.Application\OnionPattern.Application.csproj", "{9435103F-230B-4424-8734-EA4D63AF7E13}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "İnfrastructure", "İnfrastructure", "{F28DCDA7-6283-44E4-A585-B4CC14DF4CFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Persistences", "src\infrastructure\OnionPattern.Persistences\OnionPattern.Persistences.csproj", "{D43CE54F-11EC-4361-A822-E72D5A2C13CC}"
@@ -18,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{8E2021EB-2271-45D9-8080-5B1626B061FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.WebApi", "src\WebApi\OnionPattern.WebApi\OnionPattern.WebApi.csproj", "{C5127B69-DA22-476D-8E93-FFFAF021CEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionPattern.Application", "src\Core\ClassLibrary1\OnionPattern.Application.csproj", "{1DC4DD21-6B6C-422A-AA56-DC6039209930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504A196B-F1F3-4EA0-8DF5-9A277C742C69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9435103F-230B-4424-8734-EA4D63AF7E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9435103F-230B-4424-8734-EA4D63AF7E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9435103F-230B-4424-8734-EA4D63AF7E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9435103F-230B-4424-8734-EA4D63AF7E13}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D43CE54F-11EC-4361-A822-E72D5A2C13CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D43CE54F-11EC-4361-A822-E72D5A2C13CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43CE54F-11EC-4361-A822-E72D5A2C13CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{C5127B69-DA22-476D-8E93-FFFAF021CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5127B69-DA22-476D-8E93-FFFAF021CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5127B69-DA22-476D-8E93-FFFAF021CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC4DD21-6B6C-422A-AA56-DC6039209930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC4DD21-6B6C-422A-AA56-DC6039209930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC4DD21-6B6C-422A-AA56-DC6039209930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC4DD21-6B6C-422A-AA56-DC6039209930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,11 +48,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A4387837-D79C-4398-9324-8E11D8902C98} = {56AA96D5-D06F-4A47-86AE-9F242A968EF5}
 		{504A196B-F1F3-4EA0-8DF5-9A277C742C69} = {A4387837-D79C-4398-9324-8E11D8902C98}
-		{9435103F-230B-4424-8734-EA4D63AF7E13} = {A4387837-D79C-4398-9324-8E11D8902C98}
 		{F28DCDA7-6283-44E4-A585-B4CC14DF4CFB} = {56AA96D5-D06F-4A47-86AE-9F242A968EF5}
 		{D43CE54F-11EC-4361-A822-E72D5A2C13CC} = {F28DCDA7-6283-44E4-A585-B4CC14DF4CFB}
 		{8E2021EB-2271-45D9-8080-5B1626B061FB} = {56AA96D5-D06F-4A47-86AE-9F242A968EF5}
 		{C5127B69-DA22-476D-8E93-FFFAF021CEDD} = {8E2021EB-2271-45D9-8080-5B1626B061FB}
+		{1DC4DD21-6B6C-422A-AA56-DC6039209930} = {A4387837-D79C-4398-9324-8E11D8902C98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1BEB71E-1327-46FD-838B-C1C12A4342D4}
