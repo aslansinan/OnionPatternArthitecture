@@ -14,3 +14,11 @@
 /src/Core/OnionPatternDomain/obj/Debug
 /src/infrastructure/OnionPattern.Persistences/bin/Debug/net6.0
 /src/infrastructure/OnionPattern.Persistences/OnionPattern.Persistences.csproj
+/.vs/ProjectEvaluation
+/src/WebApi/OnionPattern.WebApi/obj/Debug/net6.0
+/src/WebApi/OnionPattern.WebApi/obj
+/src/WebApi/OnionPattern.WebApi/Properties/launchSettings.json
+/src/WebApi/OnionPattern.WebApi/appsettings.Development.json
+/src/WebApi/OnionPattern.WebApi/appsettings.json
+/src/WebApi/OnionPattern.WebApi/OnionPattern.WebApi.csproj
+/src/WebApi/OnionPattern.WebApi/OnionPattern.WebApi.csproj.user
