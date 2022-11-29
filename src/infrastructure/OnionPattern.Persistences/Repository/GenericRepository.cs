@@ -25,7 +25,7 @@ namespace OnionPattern.Persistences.Repository
             return entity;
         }
 
-        public async Task<List<T>> GerAllAsync()
+        public async Task<List<T>> GetAllAsync()
         {
            return await dbContext.Set<T>().ToListAsync();
 

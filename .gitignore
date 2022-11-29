@@ -26,3 +26,5 @@
 /src/Core/ClassLibrary1/obj
 /src/Core/OnionPattern.Application/obj/Debug
 /src/Core/OnionPattern.Application/OnionPattern.Applications.csproj
+/src/Core/ClassLibrary1/bin/Debug/net6.0
+/src/WebApi/OnionPattern.WebApi/bin/Debug/net6.0
